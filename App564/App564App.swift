@@ -2,7 +2,7 @@
 //  App564App.swift
 //  App564
 //
-//  Created by IGOR on 03/06/2024.
+//  Created by DJUROM on 03/06/2024.
 //
 
 import SwiftUI
@@ -11,7 +11,10 @@ import SwiftUI
 struct App564App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            NavigationView(content: {
+                ContentView()
+            })
         }
     }
 }
